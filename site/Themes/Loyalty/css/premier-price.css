@@ -1,0 +1,149 @@
+﻿.premier-sale-price-div .premier-text-info .premier-text-info-tooltip >p {
+    margin: 0;
+}
+@media only screen and (min-width: 385px) {
+    .premier-sale-price-div {
+        /*width: 100%!important;*/
+        display: flex !important;
+        /*align-items: center;*/
+    }
+
+    .was-sale-price-div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .premier-sale-price-div .premier-text-info {
+        background-color: #1840b6;
+        padding: 0px 5px 0px 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 5px;
+        /*margin-right: 4px;*/
+    }
+
+        .premier-sale-price-div .premier-text-info .premier-text-info-tooltip {
+            display: flex;
+            align-items: center;
+        }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip .premier-text-blue-bg {
+                color: #ffffff;
+                font-size: 8px;
+                margin-right: 2px;
+            }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip i.fa-circle-info {
+                color: #ffffff !important;
+                font-size: 9px;
+            }
+
+    .premier-text-price-blue {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+
+@media only screen and (min-width: 338px) and (max-width: 384px) {
+    .premier-sale-price-div {
+        /*width: 100%!important;*/
+        display: flex !important;
+        /*align-items: center;*/
+    }
+
+    .was-sale-price-div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .premier-sale-price-div .premier-text-info {
+        background-color: #1840b6;
+        padding: 0px 2px 0px 2px;
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 5px;
+        /*margin-right: 4px;*/
+    }
+
+        .premier-sale-price-div .premier-text-info .premier-text-info-tooltip {
+            display: flex;
+            align-items: center;
+        }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip .premier-text-blue-bg {
+                color: #ffffff;
+                font-size: 7px;
+                margin-right: 2px;
+            }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip i.fa-circle-info {
+                color: #ffffff !important;
+                font-size: 9px;
+            }
+
+    .premier-text-price-blue {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 337px) {
+    .premier-sale-price-div {
+        /*width: 100%!important;*/
+        display: flex !important;
+        /*align-items: center;*/
+    }
+
+    .was-sale-price-div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .premier-sale-price-div .premier-text-info {
+        background-color: #1840b6;
+        padding: 0px 2px 0px 2px;
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 5px;
+        /*margin-right: 4px;*/
+    }
+
+        .premier-sale-price-div .premier-text-info .premier-text-info-tooltip {
+            display: flex;
+            align-items: center;
+        }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip .premier-text-blue-bg {
+                color: #ffffff;
+                font-size: 7px;
+                margin-right: 2px;
+            }
+
+            .premier-sale-price-div .premier-text-info .premier-text-info-tooltip i.fa-circle-info {
+                color: #ffffff !important;
+                font-size: 9px;
+            }
+
+    .premier-text-price-blue {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .prbox_pricebox .prbox_stockicons {
+        font-size: 11px !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
